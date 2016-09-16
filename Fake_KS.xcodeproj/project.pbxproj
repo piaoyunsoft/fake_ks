@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133AA43B1D8BD80C0019103B /* Brand Assets-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AA4381D8BD80C0019103B /* Brand Assets-700-568h@2x.png */; };
+		133AA43C1D8BD80C0019103B /* Brand Assets-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AA4391D8BD80C0019103B /* Brand Assets-700@2x.png */; };
+		133AA43D1D8BD80C0019103B /* mapFilter1.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AA43A1D8BD80C0019103B /* mapFilter1.png */; };
+		133AA4401D8BE8500019103B /* FKSDetailHeadToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA43F1D8BE8500019103B /* FKSDetailHeadToolbar.m */; };
+		133AA4431D8BE8700019103B /* FKSDetailFootToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA4421D8BE8700019103B /* FKSDetailFootToolbar.m */; };
+		133AA4461D8BF6760019103B /* FKSVideoPlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA4451D8BF6760019103B /* FKSVideoPlayTableViewCell.m */; };
+		133AA4491D8BF6910019103B /* FKSVideoDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA4481D8BF6910019103B /* FKSVideoDetailTableViewCell.m */; };
+		133AA44C1D8BF6A20019103B /* FKSCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA44B1D8BF6A20019103B /* FKSCommentTableViewCell.m */; };
+		133AA44F1D8C09FA0019103B /* FKSCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA44E1D8C09FA0019103B /* FKSCommentModel.m */; };
+		133AA4521D8C17B70019103B /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AA4511D8C17B70019103B /* NSDate+Format.m */; };
 		138F6BEA1D75609000D23FD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6BE91D75609000D23FD8 /* main.m */; };
 		138F6BED1D75609000D23FD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6BEC1D75609000D23FD8 /* AppDelegate.m */; };
 		138F6BF01D75609000D23FD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6BEF1D75609000D23FD8 /* ViewController.m */; };
@@ -15,6 +25,15 @@
 		138F6BF81D75609000D23FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138F6BF61D75609000D23FD8 /* LaunchScreen.storyboard */; };
 		138F6C031D75609000D23FD8 /* Fake_KSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C021D75609000D23FD8 /* Fake_KSTests.m */; };
 		138F6C0E1D75609100D23FD8 /* Fake_KSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C0D1D75609100D23FD8 /* Fake_KSUITests.m */; };
+		138F6C251D75708100D23FD8 /* FKSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C241D75708100D23FD8 /* FKSHomeViewController.m */; };
+		138F6C281D7570E300D23FD8 /* FKSVideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */; };
+		138F6C2C1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */; };
+		138F6C2F1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */; };
+		13CBFF091D86849E001447E0 /* FKSHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF081D86849E001447E0 /* FKSHttpClient.m */; };
+		13CBFF0C1D868ED4001447E0 /* MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF0B1D868ED4001447E0 /* MyAdditions.m */; };
+		13CBFF0F1D869243001447E0 /* FKSFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF0E1D869243001447E0 /* FKSFeedModel.m */; };
+		13CBFF131D86A44B001447E0 /* FKSParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF121D86A44B001447E0 /* FKSParameters.m */; };
+		FC93F928F23EF6F6013FE16F /* libPods-Fake_KS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782133B211E2BE309D9ADDB9 /* libPods-Fake_KS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EA9E799DD01FC36A98A5CF9 /* Pods-Fake_KS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake_KS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fake_KS/Pods-Fake_KS.release.xcconfig"; sourceTree = "<group>"; };
+		133AA4381D8BD80C0019103B /* Brand Assets-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brand Assets-700-568h@2x.png"; sourceTree = "<group>"; };
+		133AA4391D8BD80C0019103B /* Brand Assets-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brand Assets-700@2x.png"; sourceTree = "<group>"; };
+		133AA43A1D8BD80C0019103B /* mapFilter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapFilter1.png; sourceTree = "<group>"; };
+		133AA43E1D8BE8500019103B /* FKSDetailHeadToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSDetailHeadToolbar.h; sourceTree = "<group>"; };
+		133AA43F1D8BE8500019103B /* FKSDetailHeadToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSDetailHeadToolbar.m; sourceTree = "<group>"; };
+		133AA4411D8BE8700019103B /* FKSDetailFootToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSDetailFootToolbar.h; sourceTree = "<group>"; };
+		133AA4421D8BE8700019103B /* FKSDetailFootToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSDetailFootToolbar.m; sourceTree = "<group>"; };
+		133AA4441D8BF6760019103B /* FKSVideoPlayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSVideoPlayTableViewCell.h; sourceTree = "<group>"; };
+		133AA4451D8BF6760019103B /* FKSVideoPlayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSVideoPlayTableViewCell.m; sourceTree = "<group>"; };
+		133AA4471D8BF6910019103B /* FKSVideoDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSVideoDetailTableViewCell.h; sourceTree = "<group>"; };
+		133AA4481D8BF6910019103B /* FKSVideoDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSVideoDetailTableViewCell.m; sourceTree = "<group>"; };
+		133AA44A1D8BF6A20019103B /* FKSCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSCommentTableViewCell.h; sourceTree = "<group>"; };
+		133AA44B1D8BF6A20019103B /* FKSCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSCommentTableViewCell.m; sourceTree = "<group>"; };
+		133AA44D1D8C09FA0019103B /* FKSCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSCommentModel.h; sourceTree = "<group>"; };
+		133AA44E1D8C09FA0019103B /* FKSCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSCommentModel.m; sourceTree = "<group>"; };
+		133AA4501D8C17B70019103B /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		133AA4511D8C17B70019103B /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
 		138F6BE51D75609000D23FD8 /* Fake_KS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fake_KS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138F6BE91D75609000D23FD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		138F6BEB1D75609000D23FD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +88,25 @@
 		138F6C091D75609100D23FD8 /* Fake_KSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fake_KSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138F6C0D1D75609100D23FD8 /* Fake_KSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fake_KSUITests.m; sourceTree = "<group>"; };
 		138F6C0F1D75609100D23FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138F6C231D75708100D23FD8 /* FKSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHomeViewController.h; sourceTree = "<group>"; };
+		138F6C241D75708100D23FD8 /* FKSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHomeViewController.m; sourceTree = "<group>"; };
+		138F6C261D7570E300D23FD8 /* FKSVideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSVideoDetailViewController.h; sourceTree = "<group>"; };
+		138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSVideoDetailViewController.m; sourceTree = "<group>"; };
+		138F6C2A1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		138F6C2D1D758A7400D23FD8 /* FKSHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		13CBFF071D86849E001447E0 /* FKSHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHttpClient.h; sourceTree = "<group>"; };
+		13CBFF081D86849E001447E0 /* FKSHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHttpClient.m; sourceTree = "<group>"; };
+		13CBFF0A1D868ED4001447E0 /* MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAdditions.h; sourceTree = "<group>"; };
+		13CBFF0B1D868ED4001447E0 /* MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAdditions.m; sourceTree = "<group>"; };
+		13CBFF0D1D869243001447E0 /* FKSFeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSFeedModel.h; sourceTree = "<group>"; };
+		13CBFF0E1D869243001447E0 /* FKSFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSFeedModel.m; sourceTree = "<group>"; };
+		13CBFF101D86A289001447E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		13CBFF111D86A44B001447E0 /* FKSParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSParameters.h; sourceTree = "<group>"; };
+		13CBFF121D86A44B001447E0 /* FKSParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSParameters.m; sourceTree = "<group>"; };
+		782133B211E2BE309D9ADDB9 /* libPods-Fake_KS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fake_KS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4DB43AE8EC5E20C1448768 /* Pods-Fake_KS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake_KS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fake_KS/Pods-Fake_KS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC93F928F23EF6F6013FE16F /* libPods-Fake_KS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +142,8 @@
 				138F6C011D75609000D23FD8 /* Fake_KSTests */,
 				138F6C0C1D75609100D23FD8 /* Fake_KSUITests */,
 				138F6BE61D75609000D23FD8 /* Products */,
+				5EE13817C134F15512097A58 /* Pods */,
+				54DBFCC1C409DB0F613B3AED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +160,7 @@
 		138F6BE71D75609000D23FD8 /* Fake_KS */ = {
 			isa = PBXGroup;
 			children = (
-				138F6BEB1D75609000D23FD8 /* AppDelegate.h */,
-				138F6BEC1D75609000D23FD8 /* AppDelegate.m */,
-				138F6BEE1D75609000D23FD8 /* ViewController.h */,
-				138F6BEF1D75609000D23FD8 /* ViewController.m */,
-				138F6BF11D75609000D23FD8 /* Main.storyboard */,
-				138F6BF41D75609000D23FD8 /* Assets.xcassets */,
-				138F6BF61D75609000D23FD8 /* LaunchScreen.storyboard */,
-				138F6BF91D75609000D23FD8 /* Info.plist */,
+				138F6C1B1D7563A400D23FD8 /* Classes */,
 				138F6BE81D75609000D23FD8 /* Supporting Files */,
 			);
 			path = Fake_KS;
@@ -117,7 +169,17 @@
 		138F6BE81D75609000D23FD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				138F6C1E1D7563A400D23FD8 /* Resources */,
+				138F6BEB1D75609000D23FD8 /* AppDelegate.h */,
+				138F6BEC1D75609000D23FD8 /* AppDelegate.m */,
+				138F6BEE1D75609000D23FD8 /* ViewController.h */,
+				138F6BEF1D75609000D23FD8 /* ViewController.m */,
+				138F6BF11D75609000D23FD8 /* Main.storyboard */,
+				138F6BF41D75609000D23FD8 /* Assets.xcassets */,
+				138F6BF61D75609000D23FD8 /* LaunchScreen.storyboard */,
+				138F6BF91D75609000D23FD8 /* Info.plist */,
 				138F6BE91D75609000D23FD8 /* main.m */,
+				13CBFF101D86A289001447E0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +202,134 @@
 			path = Fake_KSUITests;
 			sourceTree = "<group>";
 		};
+		138F6C1B1D7563A400D23FD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C1F1D7563E000D23FD8 /* Home */,
+				138F6C1C1D7563A400D23FD8 /* Base Classes */,
+				138F6C1D1D7563A400D23FD8 /* Third Party */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		138F6C1C1D7563A400D23FD8 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C331D75966700D23FD8 /* Network */,
+				13CBFF0A1D868ED4001447E0 /* MyAdditions.h */,
+				13CBFF0B1D868ED4001447E0 /* MyAdditions.m */,
+				133AA4501D8C17B70019103B /* NSDate+Format.h */,
+				133AA4511D8C17B70019103B /* NSDate+Format.m */,
+				13CBFF111D86A44B001447E0 /* FKSParameters.h */,
+				13CBFF121D86A44B001447E0 /* FKSParameters.m */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		138F6C1D1D7563A400D23FD8 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C291D75860300D23FD8 /* CHTCollectionViewWaterfallLayout */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		138F6C1E1D7563A400D23FD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				133AA4381D8BD80C0019103B /* Brand Assets-700-568h@2x.png */,
+				133AA4391D8BD80C0019103B /* Brand Assets-700@2x.png */,
+				133AA43A1D8BD80C0019103B /* mapFilter1.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		138F6C1F1D7563E000D23FD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C221D75703000D23FD8 /* Models */,
+				138F6C211D75702500D23FD8 /* Views */,
+				138F6C201D75700D00D23FD8 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		138F6C201D75700D00D23FD8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C231D75708100D23FD8 /* FKSHomeViewController.h */,
+				138F6C241D75708100D23FD8 /* FKSHomeViewController.m */,
+				138F6C261D7570E300D23FD8 /* FKSVideoDetailViewController.h */,
+				138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		138F6C211D75702500D23FD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C2D1D758A7400D23FD8 /* FKSHomeCollectionViewCell.h */,
+				138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */,
+				133AA43E1D8BE8500019103B /* FKSDetailHeadToolbar.h */,
+				133AA43F1D8BE8500019103B /* FKSDetailHeadToolbar.m */,
+				133AA4411D8BE8700019103B /* FKSDetailFootToolbar.h */,
+				133AA4421D8BE8700019103B /* FKSDetailFootToolbar.m */,
+				133AA4441D8BF6760019103B /* FKSVideoPlayTableViewCell.h */,
+				133AA4451D8BF6760019103B /* FKSVideoPlayTableViewCell.m */,
+				133AA4471D8BF6910019103B /* FKSVideoDetailTableViewCell.h */,
+				133AA4481D8BF6910019103B /* FKSVideoDetailTableViewCell.m */,
+				133AA44A1D8BF6A20019103B /* FKSCommentTableViewCell.h */,
+				133AA44B1D8BF6A20019103B /* FKSCommentTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		138F6C221D75703000D23FD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13CBFF0D1D869243001447E0 /* FKSFeedModel.h */,
+				13CBFF0E1D869243001447E0 /* FKSFeedModel.m */,
+				133AA44D1D8C09FA0019103B /* FKSCommentModel.h */,
+				133AA44E1D8C09FA0019103B /* FKSCommentModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		138F6C291D75860300D23FD8 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				138F6C2A1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.h */,
+				138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		138F6C331D75966700D23FD8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				13CBFF071D86849E001447E0 /* FKSHttpClient.h */,
+				13CBFF081D86849E001447E0 /* FKSHttpClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		54DBFCC1C409DB0F613B3AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782133B211E2BE309D9ADDB9 /* libPods-Fake_KS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EE13817C134F15512097A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF4DB43AE8EC5E20C1448768 /* Pods-Fake_KS.debug.xcconfig */,
+				0EA9E799DD01FC36A98A5CF9 /* Pods-Fake_KS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 138F6C121D75609100D23FD8 /* Build configuration list for PBXNativeTarget "Fake_KS" */;
 			buildPhases = (
+				A282E7AB1241B88A1844B3D0 /* [CP] Check Pods Manifest.lock */,
 				138F6BE11D75609000D23FD8 /* Sources */,
 				138F6BE21D75609000D23FD8 /* Frameworks */,
 				138F6BE31D75609000D23FD8 /* Resources */,
+				39F3DD215D593A35186E8B2E /* [CP] Embed Pods Frameworks */,
+				7BD9C8925CC4105DDABC70EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +439,9 @@
 				138F6BF81D75609000D23FD8 /* LaunchScreen.storyboard in Resources */,
 				138F6BF51D75609000D23FD8 /* Assets.xcassets in Resources */,
 				138F6BF31D75609000D23FD8 /* Main.storyboard in Resources */,
+				133AA43C1D8BD80C0019103B /* Brand Assets-700@2x.png in Resources */,
+				133AA43D1D8BD80C0019103B /* mapFilter1.png in Resources */,
+				133AA43B1D8BD80C0019103B /* Brand Assets-700-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +461,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39F3DD215D593A35186E8B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fake_KS/Pods-Fake_KS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD9C8925CC4105DDABC70EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fake_KS/Pods-Fake_KS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A282E7AB1241B88A1844B3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		138F6BE11D75609000D23FD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				138F6BF01D75609000D23FD8 /* ViewController.m in Sources */,
+				138F6C2C1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m in Sources */,
 				138F6BED1D75609000D23FD8 /* AppDelegate.m in Sources */,
+				133AA44C1D8BF6A20019103B /* FKSCommentTableViewCell.m in Sources */,
+				13CBFF0F1D869243001447E0 /* FKSFeedModel.m in Sources */,
+				133AA4521D8C17B70019103B /* NSDate+Format.m in Sources */,
+				13CBFF091D86849E001447E0 /* FKSHttpClient.m in Sources */,
+				138F6C251D75708100D23FD8 /* FKSHomeViewController.m in Sources */,
+				138F6C281D7570E300D23FD8 /* FKSVideoDetailViewController.m in Sources */,
+				133AA44F1D8C09FA0019103B /* FKSCommentModel.m in Sources */,
+				133AA4431D8BE8700019103B /* FKSDetailFootToolbar.m in Sources */,
+				13CBFF0C1D868ED4001447E0 /* MyAdditions.m in Sources */,
+				133AA4491D8BF6910019103B /* FKSVideoDetailTableViewCell.m in Sources */,
+				133AA4401D8BE8500019103B /* FKSDetailHeadToolbar.m in Sources */,
 				138F6BEA1D75609000D23FD8 /* main.m in Sources */,
+				13CBFF131D86A44B001447E0 /* FKSParameters.m in Sources */,
+				138F6C2F1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m in Sources */,
+				133AA4461D8BF6760019103B /* FKSVideoPlayTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +672,11 @@
 		};
 		138F6C131D75609100D23FD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4DB43AE8EC5E20C1448768 /* Pods-Fake_KS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fake_KS/PrefixHeader.pch;
 				INFOPLIST_FILE = Fake_KS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaobunetwork.Fake-KS";
@@ -424,8 +686,11 @@
 		};
 		138F6C141D75609100D23FD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA9E799DD01FC36A98A5CF9 /* Pods-Fake_KS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fake_KS/PrefixHeader.pch;
 				INFOPLIST_FILE = Fake_KS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xiaobunetwork.Fake-KS";
@@ -498,6 +763,7 @@
 				138F6C141D75609100D23FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138F6C151D75609100D23FD8 /* Build configuration list for PBXNativeTarget "Fake_KSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +772,7 @@
 				138F6C171D75609100D23FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138F6C181D75609100D23FD8 /* Build configuration list for PBXNativeTarget "Fake_KSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +781,7 @@
 				138F6C1A1D75609100D23FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

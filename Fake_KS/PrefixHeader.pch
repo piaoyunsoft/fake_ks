@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  Fake_KS
+//
+//  Created by zhang yuanan on 16/9/12.
+//  Copyright © 2016年 xiaobu network. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#if DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+
+#endif /* PrefixHeader_pch */
