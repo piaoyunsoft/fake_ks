@@ -8,6 +8,12 @@
 
 #import "FKSDetailHeadToolbar.h"
 
+@interface FKSDetailHeadToolbar ()
+- (IBAction)backButtonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *imageButton;
+
+@end
+
 @implementation FKSDetailHeadToolbar
 
 /*
@@ -18,4 +24,7 @@
 }
 */
 
+- (IBAction)backButtonPressed:(id)sender {
+    [_delegate headBackPressed];
+}
 @end

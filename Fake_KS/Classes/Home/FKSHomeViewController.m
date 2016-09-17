@@ -15,9 +15,9 @@
 #import "FKSHttpClient.h"
 #import "FKSParameters.h"
 
-#import "CHTCollectionViewWaterfallLayout.h"
+#import "ZWCollectionViewFlowLayout.h"
 
-@interface FKSHomeViewController () <UICollectionViewDataSource, CHTCollectionViewDelegateWaterfallLayout>
+@interface FKSHomeViewController () <UICollectionViewDataSource, ZWwaterFlowDelegate>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
@@ -33,13 +33,12 @@
     [super viewDidLoad];
 
     //[FKSFeedModel setupReplacement];
-
-    CHTCollectionViewWaterfallLayout *layout = (CHTCollectionViewWaterfallLayout *)_collectionView.collectionViewLayout;
+    ZWCollectionViewFlowLayout *layout = (ZWCollectionViewFlowLayout *)_collectionView.collectionViewLayout;
+    layout.colMagrin = 10;
+    layout.rowMagrin = 10;
     layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
-    layout.headerHeight = 15;
-    layout.footerHeight = 10;
-    layout.minimumColumnSpacing = 20;
-    layout.minimumInteritemSpacing = 30;
+    layout.colCount = 2;
+    layout.degelate = self;
     
     _feedlist = [NSMutableArray new];
     _httpClient = [FKSHttpClient shareClient];
@@ -71,8 +70,8 @@
     [self performSegueWithIdentifier:@"video" sender:self];
 }
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return CGSizeMake(160, 160);
+- (CGFloat)ZWwaterFlow:(ZWCollectionViewFlowLayout *)waterFlow heightForWidth:(CGFloat)width atIndexPath:(NSIndexPath *)indexPach {
+    return width*4/3;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

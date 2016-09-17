@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FKSDetailHeadToolbar : UIToolbar
+@protocol FKSDetailHeadDelegate <NSObject>
+
+- (void)headBackPressed;
+
+@end
+
+@interface FKSDetailHeadToolbar : UIView
+
+@property (weak, nonatomic) id<FKSDetailHeadDelegate> delegate;
 
 @end

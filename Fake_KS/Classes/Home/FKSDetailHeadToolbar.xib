@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FKSDetailHeadToolbar">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCr-tR-Yoq">
+                    <rect key="frame" x="0.0" y="0.0" width="440" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="VON-Df-9OU"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem style="plain" id="XDE-3m-dsF">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zgs-4L-XdO">
+                                <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="detail_btn_back_normal"/>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="7jY-xk-bJy"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="78n-0e-f8R">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nJi-dF-JEr">
+                                <rect key="frame" x="60" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="detail_btn_follow_normal"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="fL2-F2-y3d">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AhV-SE-cOF">
+                                <rect key="frame" x="100" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="detail_btn_like_normal"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="H7a-LS-Rzc">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fjB-ZF-Zjg">
+                                <rect key="frame" x="140" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="detail_btn_more_normal"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="0s1-Dt-5Y2">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FWb-bb-rGV">
+                                <rect key="frame" x="180" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="detail_btn_share_ios_normal"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="4kn-fe-eCV"/>
+                        <barButtonItem style="plain" id="eyy-qy-Sa6">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Al-8r-X7e">
+                                <rect key="frame" x="374" y="7" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jCr-tR-Yoq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bYi-TP-GcD"/>
+                <constraint firstItem="jCr-tR-Yoq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eOx-e4-TUR"/>
+                <constraint firstAttribute="bottom" secondItem="jCr-tR-Yoq" secondAttribute="bottom" id="lfE-Bl-7WF"/>
+                <constraint firstAttribute="trailing" secondItem="jCr-tR-Yoq" secondAttribute="trailing" id="ryG-n7-kun"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageButton" destination="3Al-8r-X7e" id="Gzp-zb-aQY"/>
+            </connections>
+            <point key="canvasLocation" x="159" y="-35"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="detail_btn_back_normal" width="30" height="30"/>
+        <image name="detail_btn_follow_normal" width="30" height="30"/>
+        <image name="detail_btn_like_normal" width="30" height="30"/>
+        <image name="detail_btn_more_normal" width="30" height="30"/>
+        <image name="detail_btn_share_ios_normal" width="30" height="30"/>
+    </resources>
+</document>

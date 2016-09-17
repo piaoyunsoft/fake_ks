@@ -73,10 +73,8 @@
     UICollectionViewLayoutAttributes * attri =[UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     attri.frame = CGRectMake(x, y, width, hight);
     return attri;
-    
-    
-    
-   }
+}
+
 -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
 {
     for(int i = 0;i<self.colCount;i++)

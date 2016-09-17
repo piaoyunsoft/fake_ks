@@ -19,11 +19,9 @@
 #import "FKSHttpClient.h"
 #import "FKSParameters.h"
 
-@interface FKSVideoDetailViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface FKSVideoDetailViewController () <UITableViewDelegate, UITableViewDataSource, FKSDetailHeadDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet FKSDetailHeadToolbar *headToolbar;
-@property (weak, nonatomic) IBOutlet FKSDetailFootToolbar *footToolbar;
 
 @property (strong, nonatomic) FKSHttpClient *httpClient;
 @property (strong, nonatomic) NSMutableArray *commentList;
@@ -34,15 +32,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self addHeadToolbar];
     
     _httpClient = [FKSHttpClient shareClient];
     _commentList = [NSMutableArray new];
     [self _downloadComments];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)addHeadToolbar {
+    FKSDetailHeadToolbar *headToolbar = [[[NSBundle mainBundle] loadNibNamed:@"FKSDetailHeadToolbar" owner:self options:nil] firstObject];
+    headToolbar.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
+    headToolbar.delegate = self;
+    [self.view addSubview:headToolbar];
+}
+
+- (void)headBackPressed {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - TableView Delegate
@@ -57,9 +71,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section==0) {
-        return (indexPath.row==0) ? 180.0 : 85.0;
+        return (indexPath.row==0) ? 320.0 : 85.0;
     }
     return 65.0;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 8.0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

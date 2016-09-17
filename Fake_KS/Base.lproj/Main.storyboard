@@ -13,7 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewLayout key="collectionViewLayout" id="EFE-KR-N8Q" customClass="CHTCollectionViewWaterfallLayout"/>
+                        <collectionViewLayout key="collectionViewLayout" id="EFE-KR-N8Q" customClass="ZWCollectionViewFlowLayout"/>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="6CH-C9-UMN" customClass="FKSHomeCollectionViewCell">
                                 <rect key="frame" x="0.0" y="64" width="169" height="152"/>
@@ -135,68 +135,16 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cde-p3-LhA">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <toolbar key="tableFooterView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OjH-X2-tO6" customClass="FKSDetailHeadToolbar">
-                                    <rect key="frame" x="0.0" y="358" width="600" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                    <items>
-                                        <barButtonItem style="plain" id="CCu-Rt-c9l">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PPC-XU-JrK">
-                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="detail_btn_back_normal"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem style="plain" id="3UQ-kV-mwl">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cj9-Dx-znI">
-                                                <rect key="frame" x="60" y="7" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="detail_btn_follow_normal"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem style="plain" id="IcR-gP-Ze7">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="52d-4J-fUi">
-                                                <rect key="frame" x="100" y="7" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="detail_btn_like_normal"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem style="plain" id="FNO-S3-YbS">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="he0-kZ-fOs">
-                                                <rect key="frame" x="140" y="7" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="detail_btn_more_normal"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem style="plain" id="ssy-78-UYL">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8L4-Xt-k1a">
-                                                <rect key="frame" x="180" y="7" width="30" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="detail_btn_share_ios_normal"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem style="plain" systemItem="flexibleSpace" id="WEi-e6-fuV"/>
-                                        <barButtonItem style="plain" id="xxS-Kp-RX3">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9Mg-I3-C9z">
-                                                <rect key="frame" x="534" y="7" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </button>
-                                        </barButtonItem>
-                                    </items>
-                                </toolbar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoPlay" rowHeight="180" id="DrY-a1-4YD" customClass="FKSVideoPlayTableViewCell">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="180"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoPlay" rowHeight="320" id="DrY-a1-4YD" customClass="FKSVideoPlayTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DrY-a1-4YD" id="4v9-qz-5t2">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="179"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="319"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxK-li-Nse">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="142"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0w 播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7Q-90-DkE">
-                                                    <rect key="frame" x="8" y="150" width="80" height="21"/>
+                                                    <rect key="frame" x="8" y="290" width="80" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="0nG-EL-zx7"/>
                                                         <constraint firstAttribute="width" constant="80" id="fGe-Lh-Zy1"/>
@@ -206,7 +154,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3天前" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkf-vv-LOK">
-                                                    <rect key="frame" x="532" y="150" width="60" height="21"/>
+                                                    <rect key="frame" x="532" y="290" width="60" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="Wsc-Ne-4vZ"/>
                                                         <constraint firstAttribute="height" constant="21" id="oWt-hB-Jzk"/>
@@ -215,19 +163,27 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxK-li-Nse">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="282"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="rkf-vv-LOK" firstAttribute="top" secondItem="gxK-li-Nse" secondAttribute="bottom" constant="8" id="AgC-ST-dlp"/>
+                                                <constraint firstItem="rkf-vv-LOK" firstAttribute="centerY" secondItem="B7Q-90-DkE" secondAttribute="centerY" id="9EX-Cb-JTj"/>
                                                 <constraint firstAttribute="bottom" secondItem="B7Q-90-DkE" secondAttribute="bottom" constant="8" id="Ljx-iv-cpc"/>
                                                 <constraint firstAttribute="trailing" secondItem="rkf-vv-LOK" secondAttribute="trailing" constant="8" id="NBy-pM-OPe"/>
                                                 <constraint firstItem="B7Q-90-DkE" firstAttribute="leading" secondItem="4v9-qz-5t2" secondAttribute="leading" constant="8" id="OOJ-aY-ALE"/>
                                                 <constraint firstItem="B7Q-90-DkE" firstAttribute="top" secondItem="gxK-li-Nse" secondAttribute="bottom" constant="8" id="SVb-vZ-ZbF"/>
                                                 <constraint firstItem="gxK-li-Nse" firstAttribute="leading" secondItem="4v9-qz-5t2" secondAttribute="leading" id="cdU-5p-Mi0"/>
-                                                <constraint firstAttribute="bottom" secondItem="rkf-vv-LOK" secondAttribute="bottom" constant="8" id="eOR-Sz-6c9"/>
                                                 <constraint firstItem="rkf-vv-LOK" firstAttribute="top" secondItem="gxK-li-Nse" secondAttribute="bottom" constant="8" id="ryB-fv-gbZ"/>
                                                 <constraint firstAttribute="trailing" secondItem="gxK-li-Nse" secondAttribute="trailing" id="uYU-CE-Plk"/>
                                                 <constraint firstItem="gxK-li-Nse" firstAttribute="top" secondItem="4v9-qz-5t2" secondAttribute="top" id="zmG-Cc-sgY"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="ryB-fv-gbZ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="playTimesLabel" destination="B7Q-90-DkE" id="PLk-Ug-d25"/>
@@ -236,7 +192,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoDetail" rowHeight="85" id="3LD-XT-E5e" customClass="FKSVideoDetailTableViewCell">
-                                        <rect key="frame" x="0.0" y="208" width="600" height="85"/>
+                                        <rect key="frame" x="0.0" y="348" width="600" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3LD-XT-E5e" id="4Jo-Pe-Jbj">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="84"/>
@@ -311,7 +267,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="comment" rowHeight="65" id="VK2-sp-1R8" customClass="FKSCommentTableViewCell">
-                                        <rect key="frame" x="0.0" y="293" width="600" height="65"/>
+                                        <rect key="frame" x="0.0" y="433" width="600" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VK2-sp-1R8" id="FQ8-qR-9Yq">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
@@ -376,34 +332,6 @@
                                     <outlet property="delegate" destination="abj-6O-VhD" id="xVo-wo-gDC"/>
                                 </connections>
                             </tableView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgs-l9-2CP" customClass="FKSDetailFootToolbar">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <items>
-                                    <barButtonItem style="plain" id="989-0m-xem">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ueM-Y0-bXr">
-                                            <rect key="frame" x="20" y="11" width="20" height="22"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" image="detail_btn_@_normal"/>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" id="myA-0P-jPC">
-                                        <view key="customView" contentMode="scaleToFill" id="kJj-20-tx9">
-                                            <rect key="frame" x="50" y="6" width="1" height="33"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" id="H5K-cp-mTR">
-                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="aBJ-mR-VwZ">
-                                            <rect key="frame" x="61" y="7" width="503" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
-                                    </barButtonItem>
-                                    <barButtonItem width="25" style="plain" systemItem="fixedSpace" id="kGE-1c-Kcv"/>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -413,9 +341,8 @@
                             <constraint firstItem="Cde-p3-LhA" firstAttribute="top" secondItem="pAQ-B9-eop" secondAttribute="top" id="i8x-Yg-gmk"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
-                        <outlet property="footToolbar" destination="Cgs-l9-2CP" id="MoR-fZ-BcW"/>
-                        <outlet property="headToolbar" destination="OjH-X2-tO6" id="FHg-p6-auf"/>
                         <outlet property="tableView" destination="Cde-p3-LhA" id="3Oz-z6-P0y"/>
                     </connections>
                 </viewController>
@@ -443,13 +370,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="detail_btn_@_normal" width="20" height="20"/>
-        <image name="detail_btn_back_normal" width="30" height="30"/>
-        <image name="detail_btn_follow_normal" width="30" height="30"/>
-        <image name="detail_btn_like_normal" width="30" height="30"/>
         <image name="detail_btn_like_pressed" width="30" height="30"/>
-        <image name="detail_btn_more_normal" width="30" height="30"/>
-        <image name="detail_btn_share_ios_normal" width="30" height="30"/>
         <image name="detail_pic_icon_caption_normal" width="20" height="20"/>
         <image name="detail_pic_icon_comment_normal" width="20" height="20"/>
         <image name="detail_pic_icon_like_normal" width="20" height="20"/>

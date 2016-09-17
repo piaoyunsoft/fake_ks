@@ -24,7 +24,7 @@
 
 - (void)setCellModel:(FKSFeedModel *)cellModel {
     self.backgroundColor = [UIColor colorWithRed:0xee/255.0 green:0xee/255.0 blue:0xee/255.0 alpha:1.0];
-    NSString *imageUrl = cellModel.cover_urls[0][@"url"];
+    NSString *imageUrl = cellModel.cover_thumbnail_urls[0][@"url"];
     [_videoImageView sd_setImageWithURL:[NSURL URLWithString:imageUrl] placeholderImage:[UIImage imageNamed:@"mapFilter1"]];
     NSString *userUrl = cellModel.headurls[0][@"url"];
     [_userImageView sd_setImageWithURL:[NSURL URLWithString:userUrl] placeholderImage:[UIImage imageNamed:@"detail_avatar_secret"]];

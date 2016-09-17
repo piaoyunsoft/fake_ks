@@ -27,8 +27,22 @@
 		138F6C0E1D75609100D23FD8 /* Fake_KSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C0D1D75609100D23FD8 /* Fake_KSUITests.m */; };
 		138F6C251D75708100D23FD8 /* FKSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C241D75708100D23FD8 /* FKSHomeViewController.m */; };
 		138F6C281D7570E300D23FD8 /* FKSVideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */; };
-		138F6C2C1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */; };
 		138F6C2F1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */; };
+		13C96A2E1D8D024D00C47464 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A2D1D8D024D00C47464 /* AudioToolbox.framework */; };
+		13C96A311D8D026300C47464 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A301D8D026300C47464 /* AVFoundation.framework */; };
+		13C96A331D8D028900C47464 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A321D8D028900C47464 /* CoreAudio.framework */; };
+		13C96A351D8D029300C47464 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A341D8D029300C47464 /* CoreGraphics.framework */; };
+		13C96A371D8D02A500C47464 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A361D8D02A500C47464 /* CoreMedia.framework */; };
+		13C96A391D8D02BA00C47464 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A381D8D02BA00C47464 /* VideoToolbox.framework */; };
+		13C96A3B1D8D02E300C47464 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A3A1D8D02E300C47464 /* MediaPlayer.framework */; };
+		13C96A3D1D8D02F200C47464 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A3C1D8D02F200C47464 /* MobileCoreServices.framework */; };
+		13C96A3F1D8D02FF00C47464 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A3E1D8D02FF00C47464 /* OpenGLES.framework */; };
+		13C96A411D8D030C00C47464 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A401D8D030C00C47464 /* QuartzCore.framework */; };
+		13C96A4D1D8D062C00C47464 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A481D8D060100C47464 /* IJKMediaFramework.framework */; };
+		13C96A4F1D8D065800C47464 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A4E1D8D065800C47464 /* libz.tbd */; };
+		13C96A511D8D066100C47464 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A501D8D066100C47464 /* libbz2.tbd */; };
+		13C96A531D8D3E2B00C47464 /* FKSDetailHeadToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C96A521D8D3E2B00C47464 /* FKSDetailHeadToolbar.xib */; };
+		13C96A571D8D532F00C47464 /* ZWCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C96A561D8D532F00C47464 /* ZWCollectionViewFlowLayout.m */; };
 		13CBFF091D86849E001447E0 /* FKSHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF081D86849E001447E0 /* FKSHttpClient.m */; };
 		13CBFF0C1D868ED4001447E0 /* MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF0B1D868ED4001447E0 /* MyAdditions.m */; };
 		13CBFF0F1D869243001447E0 /* FKSFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBFF0E1D869243001447E0 /* FKSFeedModel.m */; };
@@ -50,6 +64,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 138F6BE41D75609000D23FD8;
 			remoteInfo = Fake_KS;
+		};
+		13C96A471D8D060100C47464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		13C96A491D8D060100C47464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		13C96A4B1D8D062100C47464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -92,10 +127,24 @@
 		138F6C241D75708100D23FD8 /* FKSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHomeViewController.m; sourceTree = "<group>"; };
 		138F6C261D7570E300D23FD8 /* FKSVideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSVideoDetailViewController.h; sourceTree = "<group>"; };
 		138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSVideoDetailViewController.m; sourceTree = "<group>"; };
-		138F6C2A1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
-		138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
 		138F6C2D1D758A7400D23FD8 /* FKSHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		13C96A2D1D8D024D00C47464 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		13C96A301D8D026300C47464 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		13C96A321D8D028900C47464 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		13C96A341D8D029300C47464 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13C96A361D8D02A500C47464 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		13C96A381D8D02BA00C47464 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		13C96A3A1D8D02E300C47464 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		13C96A3C1D8D02F200C47464 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		13C96A3E1D8D02FF00C47464 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		13C96A401D8D030C00C47464 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = Fake_KS/ijkplayer/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
+		13C96A4E1D8D065800C47464 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		13C96A501D8D066100C47464 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		13C96A521D8D3E2B00C47464 /* FKSDetailHeadToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKSDetailHeadToolbar.xib; sourceTree = "<group>"; };
+		13C96A551D8D532F00C47464 /* ZWCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		13C96A561D8D532F00C47464 /* ZWCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		13CBFF071D86849E001447E0 /* FKSHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHttpClient.h; sourceTree = "<group>"; };
 		13CBFF081D86849E001447E0 /* FKSHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHttpClient.m; sourceTree = "<group>"; };
 		13CBFF0A1D868ED4001447E0 /* MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAdditions.h; sourceTree = "<group>"; };
@@ -114,6 +163,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C96A511D8D066100C47464 /* libbz2.tbd in Frameworks */,
+				13C96A4F1D8D065800C47464 /* libz.tbd in Frameworks */,
+				13C96A4D1D8D062C00C47464 /* IJKMediaFramework.framework in Frameworks */,
+				13C96A411D8D030C00C47464 /* QuartzCore.framework in Frameworks */,
+				13C96A3F1D8D02FF00C47464 /* OpenGLES.framework in Frameworks */,
+				13C96A3D1D8D02F200C47464 /* MobileCoreServices.framework in Frameworks */,
+				13C96A3B1D8D02E300C47464 /* MediaPlayer.framework in Frameworks */,
+				13C96A391D8D02BA00C47464 /* VideoToolbox.framework in Frameworks */,
+				13C96A371D8D02A500C47464 /* CoreMedia.framework in Frameworks */,
+				13C96A351D8D029300C47464 /* CoreGraphics.framework in Frameworks */,
+				13C96A331D8D028900C47464 /* CoreAudio.framework in Frameworks */,
+				13C96A311D8D026300C47464 /* AVFoundation.framework in Frameworks */,
+				13C96A2E1D8D024D00C47464 /* AudioToolbox.framework in Frameworks */,
 				FC93F928F23EF6F6013FE16F /* libPods-Fake_KS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +200,7 @@
 		138F6BDC1D75609000D23FD8 = {
 			isa = PBXGroup;
 			children = (
+				13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */,
 				138F6BE71D75609000D23FD8 /* Fake_KS */,
 				138F6C011D75609000D23FD8 /* Fake_KSTests */,
 				138F6C0C1D75609100D23FD8 /* Fake_KSUITests */,
@@ -229,7 +292,7 @@
 		138F6C1D1D7563A400D23FD8 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				138F6C291D75860300D23FD8 /* CHTCollectionViewWaterfallLayout */,
+				13C96A541D8D532F00C47464 /* ZWCollectionViewFlowLayout */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
@@ -280,6 +343,7 @@
 				133AA4481D8BF6910019103B /* FKSVideoDetailTableViewCell.m */,
 				133AA44A1D8BF6A20019103B /* FKSCommentTableViewCell.h */,
 				133AA44B1D8BF6A20019103B /* FKSCommentTableViewCell.m */,
+				13C96A521D8D3E2B00C47464 /* FKSDetailHeadToolbar.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -295,15 +359,6 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		138F6C291D75860300D23FD8 /* CHTCollectionViewWaterfallLayout */ = {
-			isa = PBXGroup;
-			children = (
-				138F6C2A1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.h */,
-				138F6C2B1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m */,
-			);
-			path = CHTCollectionViewWaterfallLayout;
-			sourceTree = "<group>";
-		};
 		138F6C331D75966700D23FD8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,9 +368,39 @@
 			name = Network;
 			sourceTree = "<group>";
 		};
+		13C96A431D8D060100C47464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C96A481D8D060100C47464 /* IJKMediaFramework.framework */,
+				13C96A4A1D8D060100C47464 /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C96A541D8D532F00C47464 /* ZWCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				13C96A551D8D532F00C47464 /* ZWCollectionViewFlowLayout.h */,
+				13C96A561D8D532F00C47464 /* ZWCollectionViewFlowLayout.m */,
+			);
+			path = ZWCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
 		54DBFCC1C409DB0F613B3AED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13C96A501D8D066100C47464 /* libbz2.tbd */,
+				13C96A4E1D8D065800C47464 /* libz.tbd */,
+				13C96A401D8D030C00C47464 /* QuartzCore.framework */,
+				13C96A3E1D8D02FF00C47464 /* OpenGLES.framework */,
+				13C96A3C1D8D02F200C47464 /* MobileCoreServices.framework */,
+				13C96A3A1D8D02E300C47464 /* MediaPlayer.framework */,
+				13C96A381D8D02BA00C47464 /* VideoToolbox.framework */,
+				13C96A361D8D02A500C47464 /* CoreMedia.framework */,
+				13C96A341D8D029300C47464 /* CoreGraphics.framework */,
+				13C96A321D8D028900C47464 /* CoreAudio.framework */,
+				13C96A301D8D026300C47464 /* AVFoundation.framework */,
+				13C96A2D1D8D024D00C47464 /* AudioToolbox.framework */,
 				782133B211E2BE309D9ADDB9 /* libPods-Fake_KS.a */,
 			);
 			name = Frameworks;
@@ -347,6 +432,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				13C96A4C1D8D062100C47464 /* PBXTargetDependency */,
 			);
 			name = Fake_KS;
 			productName = Fake_KS;
@@ -422,6 +508,12 @@
 			mainGroup = 138F6BDC1D75609000D23FD8;
 			productRefGroup = 138F6BE61D75609000D23FD8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 13C96A431D8D060100C47464 /* Products */;
+					ProjectRef = 13C96A421D8D060100C47464 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				138F6BE41D75609000D23FD8 /* Fake_KS */,
@@ -431,11 +523,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		13C96A481D8D060100C47464 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = 13C96A471D8D060100C47464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		13C96A4A1D8D060100C47464 /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = 13C96A491D8D060100C47464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		138F6BE31D75609000D23FD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C96A531D8D3E2B00C47464 /* FKSDetailHeadToolbar.xib in Resources */,
 				138F6BF81D75609000D23FD8 /* LaunchScreen.storyboard in Resources */,
 				138F6BF51D75609000D23FD8 /* Assets.xcassets in Resources */,
 				138F6BF31D75609000D23FD8 /* Main.storyboard in Resources */,
@@ -515,7 +625,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				138F6BF01D75609000D23FD8 /* ViewController.m in Sources */,
-				138F6C2C1D75860300D23FD8 /* CHTCollectionViewWaterfallLayout.m in Sources */,
 				138F6BED1D75609000D23FD8 /* AppDelegate.m in Sources */,
 				133AA44C1D8BF6A20019103B /* FKSCommentTableViewCell.m in Sources */,
 				13CBFF0F1D869243001447E0 /* FKSFeedModel.m in Sources */,
@@ -530,6 +639,7 @@
 				133AA4401D8BE8500019103B /* FKSDetailHeadToolbar.m in Sources */,
 				138F6BEA1D75609000D23FD8 /* main.m in Sources */,
 				13CBFF131D86A44B001447E0 /* FKSParameters.m in Sources */,
+				13C96A571D8D532F00C47464 /* ZWCollectionViewFlowLayout.m in Sources */,
 				138F6C2F1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m in Sources */,
 				133AA4461D8BF6760019103B /* FKSVideoPlayTableViewCell.m in Sources */,
 			);
@@ -563,6 +673,11 @@
 			isa = PBXTargetDependency;
 			target = 138F6BE41D75609000D23FD8 /* Fake_KS */;
 			targetProxy = 138F6C0A1D75609100D23FD8 /* PBXContainerItemProxy */;
+		};
+		13C96A4C1D8D062100C47464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = 13C96A4B1D8D062100C47464 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
