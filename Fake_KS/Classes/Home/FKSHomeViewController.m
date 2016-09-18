@@ -14,6 +14,7 @@
 #import "FKSFeedModel.h"
 #import "FKSHttpClient.h"
 #import "FKSParameters.h"
+#import "FKSConstants.h"
 
 #import "ZWCollectionViewFlowLayout.h"
 
@@ -42,9 +43,9 @@
     
     _feedlist = [NSMutableArray new];
     _httpClient = [FKSHttpClient shareClient];
-    [_httpClient initWithBaseUrl:BASE_URL];
-    [_httpClient.sessionManager.requestSerializer setValue:@"kwai-ios" forHTTPHeaderField:@"User-Agent"];
-    [_httpClient.sessionManager.requestSerializer setValue:@"zh-Hans;q=1, en;q=0.9, fr;q=0.8, de;q=0.7, ja;q=0.6, nl;q=0.5" forHTTPHeaderField:@"Accept-Language"];
+    [_httpClient initWithBaseUrl:kFKSBaseURL];
+    [_httpClient.sessionManager.requestSerializer setValue:kFKSUserAgent forHTTPHeaderField:@"User-Agent"];
+    [_httpClient.sessionManager.requestSerializer setValue:kFKSAcceptLanguage forHTTPHeaderField:@"Accept-Language"];
     
     [self _downloadFeedlist];
 }

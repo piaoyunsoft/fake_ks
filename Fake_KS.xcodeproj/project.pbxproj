@@ -28,6 +28,7 @@
 		138F6C251D75708100D23FD8 /* FKSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C241D75708100D23FD8 /* FKSHomeViewController.m */; };
 		138F6C281D7570E300D23FD8 /* FKSVideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */; };
 		138F6C2F1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */; };
+		13B1914B1D8E7F3600CBEC90 /* FKSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1914A1D8E7F3600CBEC90 /* FKSConstants.m */; };
 		13C96A2E1D8D024D00C47464 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A2D1D8D024D00C47464 /* AudioToolbox.framework */; };
 		13C96A311D8D026300C47464 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A301D8D026300C47464 /* AVFoundation.framework */; };
 		13C96A331D8D028900C47464 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C96A321D8D028900C47464 /* CoreAudio.framework */; };
@@ -129,6 +130,8 @@
 		138F6C271D7570E300D23FD8 /* FKSVideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSVideoDetailViewController.m; sourceTree = "<group>"; };
 		138F6C2D1D758A7400D23FD8 /* FKSHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSHomeCollectionViewCell.h; sourceTree = "<group>"; };
 		138F6C2E1D758A7400D23FD8 /* FKSHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		13B191491D8E7F3600CBEC90 /* FKSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSConstants.h; sourceTree = "<group>"; };
+		13B1914A1D8E7F3600CBEC90 /* FKSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSConstants.m; sourceTree = "<group>"; };
 		13C96A2D1D8D024D00C47464 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		13C96A301D8D026300C47464 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		13C96A321D8D028900C47464 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -285,6 +288,8 @@
 				133AA4511D8C17B70019103B /* NSDate+Format.m */,
 				13CBFF111D86A44B001447E0 /* FKSParameters.h */,
 				13CBFF121D86A44B001447E0 /* FKSParameters.m */,
+				13B191491D8E7F3600CBEC90 /* FKSConstants.h */,
+				13B1914A1D8E7F3600CBEC90 /* FKSConstants.m */,
 			);
 			path = "Base Classes";
 			sourceTree = "<group>";
@@ -634,6 +639,7 @@
 				138F6C281D7570E300D23FD8 /* FKSVideoDetailViewController.m in Sources */,
 				133AA44F1D8C09FA0019103B /* FKSCommentModel.m in Sources */,
 				133AA4431D8BE8700019103B /* FKSDetailFootToolbar.m in Sources */,
+				13B1914B1D8E7F3600CBEC90 /* FKSConstants.m in Sources */,
 				13CBFF0C1D868ED4001447E0 /* MyAdditions.m in Sources */,
 				133AA4491D8BF6910019103B /* FKSVideoDetailTableViewCell.m in Sources */,
 				133AA4401D8BE8500019103B /* FKSDetailHeadToolbar.m in Sources */,

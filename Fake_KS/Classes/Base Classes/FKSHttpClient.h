@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
 
-#define BASE_URL @"http://api.gifshow.com"
-
 @interface FKSHttpClient : NSObject
 
 + (id)shareClient;
